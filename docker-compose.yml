@@ -1,10 +1,6 @@
 version: "2"
 services:
   overworld:
-    build:
-      context: https://github.com/dst-academy/docker-dontstarvetogether.git#v0.8.0:build
-      args:
-        MODS: 1079538195, 347079953, 356420397, 361994110, 375859599, 378160973, 466732225, 501385076, 503919639, 755028761, 362175979
     image: dstacademy/dontstarvetogether:0.8
     container_name: overworld
     hostname: overworld
@@ -134,10 +130,6 @@ services:
     volumes:
       - ./overworld:/var/lib/dsta/cluster
   underworld:
-    build:
-      context: https://github.com/dst-academy/docker-dontstarvetogether.git#v0.8.0:build
-      args:
-        MODS: 1079538195, 347079953, 356420397, 361994110, 375859599, 378160973, 466732225, 501385076, 503919639, 755028761, 362175979
     image: dstacademy/dontstarvetogether:0.8
     container_name: underworld
     hostname: underworld
