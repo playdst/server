@@ -97,7 +97,7 @@ services:
             weather="default",
             wildfires="default",
             winter="default",
-            world_size="large",
+            world_size="default",
             wormhole_prefab="wormhole"
           },
           random_set_pieces={
@@ -195,7 +195,7 @@ services:
             touchstone="default",
             trees="default",
             weather="default",
-            world_size="large",
+            world_size="default",
             wormattacks="default",
             wormhole_prefab="tentacle_pillar",
             wormlights="default",
